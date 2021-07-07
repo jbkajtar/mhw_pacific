@@ -6,6 +6,8 @@ This code has been written to generate marine heatwave metrics for the tropical 
 
 Further details about computing the marine heatwave metrics, and obtaining the source data, are given in Kajtar et al. (2021).
 
+The data is publicly and freely available to download at https://doi.org/10.5281/zenodo.5069012.
+
 # Contents
 
 |Directory         |Description|
