@@ -45,7 +45,7 @@ MATLAB code for post-processing of MHW metrics.
 
 # sources
 
-Files that specify the locations of the primary source data, to be adapted by the user. The mhw_pacific reads data from these specified paths. One path per line in each file. Also provided here are the full details of CMIP6 realisations analysed in Kajtar et al. (2021), along with primary source references.
+Files that specify the locations of the primary source data, to be adapted by the user. The mhw_pacific code reads data from these specified paths. One path per line in each file. Also provided here are the full details of CMIP6 realisations analysed in Kajtar et al. (2021), along with primary source references.
 
 |File              |Description|
 |------------------|-----------|
