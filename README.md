@@ -1,10 +1,10 @@
 # Tropical western and central Pacific marine heatwave data (mhw_pacific)
 
-Code for generating marine heatwave (MHW) metrics from observational and CMIP6 data for Holbrook et al., Glob. Planet. Change (2021). A description of the data produced by this code is given in Kajtar et al., Data Br. (2021). Marine heatwaves are calculated following the Hobday et al. (2016) definition, using the marineHeatWaves python module (https://github.com/ecjoliver/marineHeatWaves).
+Code for generating marine heatwave (MHW) metrics from observational and CMIP6 data for Holbrook et al., Glob. Planet. Change (2022). A description of the data produced by this code is given in Kajtar et al., Data Br. (2022). Marine heatwaves are calculated following the Hobday et al. (2016) definition, using the marineHeatWaves python module (https://github.com/ecjoliver/marineHeatWaves).
 
 This code has been written to generate marine heatwave metrics for the tropical western and central Pacific Ocean region (120°E-140°W, 40°S-15°N). The metrics are computed from daily sea surface temperature (SST) data, from both observations and models. The observed marine heatwave data are calculated from NOAA 0.25° daily Optimum Interpolation Sea Surface Temperature (OISST) over the period 1982-2019. The modelled marine heatwave data are from analysis of 18 model simulations as part of the Coupled Model Intercomparison Project, Phase 6 (CMIP6) over the period 1982-2100, where two future scenarios have been analysed. Marine heatwaves are computed with respect to the 1995-2014 climatology. The marine heatwave data are provided on a grid point basis across the domain. Marine heatwave timeseries metrics are also provided for three case study regions: Fiji, Samoa, and Palau.
 
-Further details about computing the marine heatwave metrics, and obtaining the source data, are given in Kajtar et al. (2021).
+Further details about computing the marine heatwave metrics, and obtaining the source data, are given in Kajtar et al. (2022).
 
 The data is publicly and freely available to download at https://doi.org/10.5281/zenodo.5069012.
 
@@ -57,12 +57,12 @@ Files that specify the locations of the primary source data, to be adapted by th
 
 # References
 
-Hobday, A.J., L. V. Alexander, S.E. Perkins-Kirkpatrick, D.A. Smale, S.C. Straub, E.C.J. Oliver, J.A. Benthuysen, M.T. Burrows, M.G. Donat, M. Feng, N.J. Holbrook, P.J. Moore, H.A. Scannell, A. Sen Gupta, T. Wernberg, A hierarchical approach to defining marine heatwaves, Prog. Oceanogr. 141 (2016) 227–238. https://doi.org/10.1016/j.pocean.2015.12.014.
+Hobday, A.J., L. V. Alexander, S.E. Perkins-Kirkpatrick, D.A. Smale, S.C. Straub, E.C.J. Oliver, J.A. Benthuysen, M.T. Burrows, M.G. Donat, M. Feng, N.J. Holbrook, P.J. Moore, H.A. Scannell, A. Sen Gupta, T. Wernberg, A hierarchical approach to defining marine heatwaves, Prog. Oceanogr. 141, 227–238 (2016). https://doi.org/10.1016/j.pocean.2015.12.014.
 
-Holbrook, N.J., V. Hernaman, S. Koshiba, J. Lako, J.B. Kajtar, P. Amosa, A. Singh, Impacts of marine heatwaves on tropical western and central Pacific Island nations and their communities, Glob. Planet. Change. (2021) In Press.
+Holbrook, N.J., V. Hernaman, S. Koshiba, J. Lako, J.B. Kajtar, P. Amosa, A. Singh, Impacts of marine heatwaves on tropical western and central Pacific Island nations and their communities, Glob. Planet. Change, 208, 103680 (2022). https://doi.org/10.1016/j.gloplacha.2021.103680
 
-Kajtar, J.B., V. Hernaman, N.J. Holbrook, P. Petrelli, Tropical western and central Pacific marine heatwave data calculated from gridded sea surface temperature observations and CMIP6. Data Br. (2021) Submitted.
+Kajtar, J.B., V. Hernaman, N.J. Holbrook, P. Petrelli, Tropical western and central Pacific marine heatwave data calculated from gridded sea surface temperature observations and CMIP6. Data Br., 40, 107694 (2022). https://doi.org/10.1016/j.dib.2021.107694
 
 # Acknowledgements
 
-We acknowledge the World Climate Research Programme's Working Group on Coupled Modelling, which is responsible for CMIP, and we thank the climate modelling groups for producing and making available their model output. CMIP6 model outputs were made available with the assistance of resources from the National Computational Infrastructure (NCI), which is supported by the Australian Government. NOAA High Resolution SST data were provided by the NOAA National Centers for Environmental Information. We acknowledge Eric Oliver for the use of his marineHeatWaves python module, freely available at https://github.com/ecjoliver/marineHeatWaves. 
+We acknowledge the World Climate Research Programme's Working Group on Coupled Modelling, which is responsible for CMIP, and we thank the climate modelling groups for producing and making available their model output. CMIP6 model outputs were made available with the assistance of resources from the National Computational Infrastructure (NCI), which is supported by the Australian Government. NOAA High Resolution SST data were provided by the NOAA National Centers for Environmental Information. JBK, NJH, and PP acknowledge ongoing support from the Australian Research Council Centre of Excellence for Climate Extremes (CE170100023). JBK, VH, and NJH acknowledge support from the Australian Government’s National Environmental Science Programme (NESP) Earth Systems and Climate Change Hub (Project 5.8). JBK and NJH acknowledge further support from the Climate Systems Hub under phase 2 of NESP. We acknowledge Eric Oliver for the use of his marineHeatWaves python module, freely available at https://github.com/ecjoliver/marineHeatWaves. 
